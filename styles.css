@@ -1,0 +1,26 @@
+
+form { background-color:#eaeaea;
+    font-family: Arial, sans-serif;
+    padding: 10px; }
+label { float: left;
+     width: 100px; 
+     clear: left;
+     text-align: right; 
+     padding-right: 10px;
+     margin-top: 10px; }
+input, textarea { margin-top: 10px; 
+               display: block; } 
+#mySubmit { margin-left: 110px; }
+/* Styling for the fieldset element */
+fieldset {
+ width: 320px;
+ border: 2px ridge #ff0000; /* Red ridge border */
+ padding: 16px;
+ margin-bottom: 16px;
+}
+
+/* Styling for the legend element inside the fieldset */
+fieldset legend {
+ font-family: Arial, sans-serif; /* Arial as primary, with sans-serif fallback */
+ font-weight: bold;
+}
